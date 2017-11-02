@@ -9,10 +9,14 @@
       "jsx": "react",
       "moduleResolution": "node",
       "rootDir": "src",
-      "noImplicitReturns": true,
-      "noImplicitThis": true,
+      "baseUrl": "./src",
       "noImplicitAny": true,
-      "strictNullChecks": true
+      "strictNullChecks": true,
+      "paths": {
+        "components": [
+          "client/components"
+        ]
+      }
     },
     "exclude": [
       "node_modules"
